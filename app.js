@@ -27,7 +27,7 @@ $(function(){
     // añadir evento click al boton
     $('#btnEnviar').on('click', function(){
         // cuando hiciste click, se ejecuta aquí
-        alert('Hiciste click');
+        //alert('Hiciste click');
         // encadenamiento de funciones
         $('#btnEnviar').removeClass('btn-primary').addClass('btn-warning');
         // recuperar los valores del formulario
